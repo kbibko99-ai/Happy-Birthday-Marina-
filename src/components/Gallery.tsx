@@ -5,67 +5,67 @@ import { Button } from '@/components/ui/button'
 const galleryImages = [
   {
     id: 1,
-    src: '/images/gallery1.JPG',
+    src: `${import.meta.env.BASE_URL}images/gallery1.JPG`,
     alt: 'A',
   },
   {
     id: 2,
-    src: '/images/gallery2.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery2.jpg`,
     alt: 'B',
   },
   {
     id: 3,
-    src: '/images/gallery3.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery3.jpg`,
     alt: 'C',
   },
   {
     id: 4,
-    src: '/images/gallery4.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery4.jpg`,
     alt: 'D',
   },
   {
     id: 5,
-    src: '/images/gallery5.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery5.jpg`,
     alt: 'E',
   },
   {
     id: 6,
-    src: '/images/gallery6.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery6.jpg`,
     alt: 'F',
   },
   {
     id: 7,
-    src: '/images/gallery7.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery7.jpg`,
     alt: 'G',
   },
   {
     id: 8,
-    src: '/images/gallery8.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery8.jpg`,
     alt: 'H',
   },
   {
     id: 9,
-    src: '/images/gallery9.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery9.jpg`,
     alt: 'I',
   },
   {
     id: 10,
-    src: '/images/gallery10.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery10.jpg`,
     alt: 'J',
   },
   {
     id: 11,
-    src: '/images/gallery11.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery11.jpg`,
     alt: 'K',
   },
   {
     id: 12,
-    src: '/images/gallery12.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery12.jpg`,
     alt: 'J',
   },
   {
     id: 13,
-    src: '/images/gallery13.jpg',
+    src: `${import.meta.env.BASE_URL}images/gallery13.jpg`,
     alt: 'J',
   }
 ]
