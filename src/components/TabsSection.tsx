@@ -10,7 +10,7 @@ export function TabsSection() {
         </h2>
 
         <Tabs defaultValue="quotes" className="w-full">
-          <TabsList className="grid w-full grid-cols-1 mb-4 md:mb-8 birthday-card h-auto p-2 md:p-2 md:h-10 md:items-center bg-transparent">
+          <TabsList className="grid w-full grid-cols-1 mb-4 md:mb-8 h-auto p-2 md:h-10 md:items-center">
             <TabsTrigger value="quotes" className="text-xs sm:text-sm md:text-lg font-medium whitespace-normal leading-snug py-2 h-auto">
               Дальше будут цитаты и подпись, чьё сердечко цитата завоевала навечно 💖
             </TabsTrigger>
