@@ -129,13 +129,13 @@ export function Gallery() {
   }, [selectedImage])
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-8 px-3 md:py-16 md:px-4">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-dancing font-bold gradient-text text-center mb-12">
+        <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-dancing font-bold gradient-text text-center mb-6 md:mb-12 leading-tight">
           Наши любимые воспоминания
         </h2>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 md:gap-6 grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           {galleryImages.map((image, index) => (
             <div
               key={image.id}
