@@ -14,7 +14,7 @@ export function Hero() {
         <div className="flex justify-center mb-12 scale-in" style={{ animationDelay: '0.3s' }}>
           <div className="polaroid">
             <img 
-              src="/images/hero.jpg" 
+              src={`${import.meta.env.BASE_URL}images/hero.jpg`} 
               alt="Birthday person" 
               className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg"
             />
