@@ -21,7 +21,7 @@ export function MessagesList() {
           {messagesData.map((message, index) => (
             <div 
               key={message.id}
-              className="birthday-card scale-in group cursor-pointer p-3 md:p-0"
+              className="birthday-card scale-in group cursor-pointer"
               style={{ animationDelay: `${index * 0.05}s` }}
             >
               <div className="relative">
